@@ -1,9 +1,10 @@
 // የጨዋታ ውሂብ (Data)
 const games = [
-    { id: 'freefire', name: 'Garena Free Fire', image: 'https://via.placeholder.com/200x150/FF0000/FFFFFF?text=FreeFire' },
-    { id: 'mobilelegends', name: 'Mobile Legends: BB', image: 'https://via.placeholder.com/200x150/0000FF/FFFFFF?text=MLBB' },
-    { id: 'pubg', name: 'PUBG Mobile', image: 'https://via.placeholder.com/200x150/00FF00/FFFFFF?text=PUBG' },
-    { id: 'roblox', name: 'Roblox', image: 'https://via.placeholder.com/200x150/FFFF00/000000?text=Roblox' },
+    // ጊዜያዊ ምስሎችን የሚሰሩ አድራሻዎች
+    { id: 'freefire', name: 'Garena Free Fire', image: 'https://cdn.jsdelivr.net/gh/miankhalil/M-K-Image-Collection@main/Free%20Fire.jpg' },
+    { id: 'mobilelegends', name: 'Mobile Legends: BB', image: 'https://cdn.jsdelivr.net/gh/miankhalil/M-K-Image-Collection@main/mobile%20legends.jpg' },
+    { id: 'pubg', name: 'PUBG Mobile', image: 'https://cdn.jsdelivr.net/gh/miankhalil/M-K-Image-Collection@main/pubg%20mobile.jpg' },
+    { id: 'roblox', name: 'Roblox', image: 'https://cdn.jsdelivr.net/gh/miankhalil/M-K-Image-Collection@main/Roblox.png' },
 ];
 
 const gameListElement = document.getElementById('game-list');
